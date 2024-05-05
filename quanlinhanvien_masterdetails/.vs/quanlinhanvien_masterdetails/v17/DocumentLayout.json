@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\views\\nhanviens\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\views\\nhanviens\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505091306_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quanlinhanvien_masterdetails\\Migrations\\20240505091306_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\models\\phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\models\\phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\models\\phongbannhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\models\\phongbannhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505090207_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quanlinhanvien_masterdetails\\Migrations\\20240505090207_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\data\\quanlinhanvien_masterdetailscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\data\\quanlinhanvien_masterdetailscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505090130_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quanlinhanvien_masterdetails\\Migrations\\20240505090130_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|c:\\users\\administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40F70AEE-2894-473B-BBF6-400BE42A4418}|quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails.csproj|solutionrelative:quanlinhanvien_masterdetails\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505084852_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quanlinhanvien_masterdetails\\Migrations\\20240505084852_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\appsettings.json",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\appsettings.json",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-05T09:22:13.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Program.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Program.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T09:22:09.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\NhanViens\\Details.cshtml",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Views\\NhanViens\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\NhanViens\\Details.cshtml",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Views\\NhanViens\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T09:14:10.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\NhanViens\\Edit.cshtml",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Views\\NhanViens\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\NhanViens\\Edit.cshtml",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Views\\NhanViens\\Edit.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T09:13:56.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\NhanViens\\Create.cshtml",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Views\\NhanViens\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\NhanViens\\Create.cshtml",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Views\\NhanViens\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T08:50:27.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T08:49:13.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240505084852_init.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505084852_init.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Migrations\\20240505084852_init.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505084852_init.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Migrations\\20240505084852_init.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T08:48:52.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "quanlinhanvien_masterdetailsContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Data\\quanlinhanvien_masterdetailsContext.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Data\\quanlinhanvien_masterdetailsContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Data\\quanlinhanvien_masterdetailsContext.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Data\\quanlinhanvien_masterdetailsContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T08:46:46.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhanViensController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Controllers\\NhanViensController.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Controllers\\NhanViensController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Controllers\\NhanViensController.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Controllers\\NhanViensController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T08:40:25.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Models\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Models\\NhanVien.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Models\\NhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T08:30:33.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PhongBan.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Models\\PhongBan.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Models\\PhongBan.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Models\\PhongBan.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Models\\PhongBan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T08:30:40.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\NhanViens\\Delete.cshtml",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Views\\NhanViens\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\NhanViens\\Delete.cshtml",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Views\\NhanViens\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T09:02:43.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240505091306_init.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505091306_init.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Migrations\\20240505091306_init.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505091306_init.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Migrations\\20240505091306_init.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T09:13:06.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T08:49:21.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240505090207_init.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505090207_init.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Migrations\\20240505090207_init.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505090207_init.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Migrations\\20240505090207_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T09:02:07.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PhongBanNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Models\\PhongBanNhanVien.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Models\\PhongBanNhanVien.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Models\\PhongBanNhanVien.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Models\\PhongBanNhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T09:03:31.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240505090130_init.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505090130_init.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Migrations\\20240505090130_init.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Migrations\\20240505090130_init.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Migrations\\20240505090130_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T09:01:30.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PhongBansController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Controllers\\PhongBansController.cs",
+              "RelativeDocumentMoniker": "quanlinhanvien_masterdetails\\Controllers\\PhongBansController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\quanlinhanvien_masterdetails\\quanlinhanvien_masterdetails\\Controllers\\PhongBansController.cs",
+              "RelativeToolTip": "quanlinhanvien_masterdetails\\Controllers\\PhongBansController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T08:50:13.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

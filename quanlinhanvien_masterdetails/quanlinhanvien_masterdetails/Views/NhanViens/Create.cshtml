@@ -1,0 +1,89 @@
+﻿@model quanlinhanvien_masterdetails.Models.NhanVien
+@inject quanlinhanvien_masterdetailsContext db
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>NhanVien</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TenNhanVien" class="control-label"></label>
+                <input asp-for="TenNhanVien" class="form-control" />
+                <span asp-validation-for="TenNhanVien" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="GioiTinh" /> @Html.DisplayNameFor(model => model.GioiTinh)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgaySinh" class="control-label"></label>
+                <input asp-for="NgaySinh" class="form-control" />
+                <span asp-validation-for="NgaySinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Luong" class="control-label"></label>
+                <input asp-for="Luong" class="form-control" />
+                <span asp-validation-for="Luong" class="text-danger"></span>
+            </div>
+            <table class="table table-responsive table-hover table-bordered table-striped">
+
+                <thead>
+                    <tr>
+                        <th>
+                            PhongBan
+                        </th>
+                        <th>
+                            MoTaCongViec
+                        </th>
+                        <th>
+                            NgayLamViec
+                        </th>
+                        <th>
+                            <input type="submit" value="Add" name="action" class="btn btn-success " />
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @for (int i = 0; i < Model.phongBanNhanViens.Count; i++)
+                    {
+                        <tr>
+                            <td>
+                                <select asp-for="phongBanNhanViens[i].PhongBanId" asp-items="db.PhongBans.Select(r=> new SelectListItem(){Text = r.TenPhongBan,Value = r.Id.ToString() })">
+                                </select>
+                            </td>
+                            <td>
+                                <input asp-for="phongBanNhanViens[i].MoTaCongViec" class="form-control" />
+                            </td>
+                            <td>
+                                <input asp-for="phongBanNhanViens[i].NgayLamViec" class="form-control" />
+                            </td>
+                            <td>
+                                <button value="delete-@i" name="action">Delete</button>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,111 @@
+﻿@model quanlibenhnhan_masterdetail.Models.BenhNhan
+@inject quanlibenhnhan_masterdetailContext db
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>BenhNhan</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenBenhNhan)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenBenhNhan)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NgaySinh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NgaySinh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GioiTinh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GioiTinh)
+        </dd>
+    </dl>
+
+    <table class="table table-responsive table-hover table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    TenChuanDoan
+                </th>
+                <th>
+                    NgayChuanDoan
+                </th>
+                <th>
+                    MoTaGiaoThuoc
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.chuanDoanBenhNhans.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <select asp-for="chuanDoanBenhNhans[i].ChuanDoanId" asp-items="db.ChuanDoans.Select(r=> new SelectListItem(){Text = r.TenChuanDoan,Value = r.Id.ToString() })" disabled></select>
+                    </td>
+                    <td>
+                        <input asp-for="chuanDoanBenhNhans[i].NgayChuanDoan" class="form-control" readonly />
+                    </td>
+                    <td>
+                        <input asp-for="chuanDoanBenhNhans[i].MoTaGiaoThuoc" class="form-control" readonly />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    <table class="table table-responsive table-hover table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    SoPhong
+                </th>
+                <th>
+                    Check In
+                </th>
+                <th>
+                    Check Out
+                </th>
+                <th>
+                    TongTien
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @for (int i = 0; i < Model.phongBenhNhans.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <select asp-for="phongBenhNhans[i].PhongId" asp-items="db.Phongs.Select(r=> new SelectListItem(){Text = r.SoPhong,Value = r.Id.ToString() })" disabled></select>
+                    </td>
+                    <td>
+                        <input asp-for="phongBenhNhans[i].Check_In" class="form-control" readonly />
+                    </td>
+                    <td>
+                        <input asp-for="phongBenhNhans[i].Check_Out" class="form-control" readonly />
+                    </td>
+                    <td>
+                        <input asp-for="phongBenhNhans[i].TongTien" class="form-control" readonly />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

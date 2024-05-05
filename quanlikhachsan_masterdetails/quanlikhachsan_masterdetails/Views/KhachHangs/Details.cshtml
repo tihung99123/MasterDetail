@@ -1,0 +1,74 @@
+﻿@model quanlikhachsan_masterdetails.Models.KhachHang
+@inject quanlikhachsan_masterdetailsContext db
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>KhachHang</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenKhachHang)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenKhachHang)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DiaChi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DiaChi)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SoDienThoai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SoDienThoai)
+        </dd>
+    </dl>
+
+    <table class="table table-responsive table-hover table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    SoPhong
+                </th>
+                <th>
+                    Check In
+                </th>
+                <th>
+                    Check Out
+                </th>
+                <th>
+                    TongTien
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.khachDatPhongs.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <select asp-for="khachDatPhongs[i].PhongId" asp-items="db.Phongs.Select(r=> new SelectListItem(){Text = r.SoPhong,Value = r.Id.ToString() })" disabled></select>
+                    </td>
+                    <td>
+                        <input asp-for="khachDatPhongs[i].Check_In" class="form-control" readonly />
+                    </td>
+                    <td>
+                        <input asp-for="khachDatPhongs[i].Check_Out" class="form-control" readonly />
+                    </td>
+                    <td>
+                        <input asp-for="khachDatPhongs[i].TongTien" class="form-control" readonly />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

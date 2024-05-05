@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\quanlibenhnhan_masterdetail.props" />
+</Project>

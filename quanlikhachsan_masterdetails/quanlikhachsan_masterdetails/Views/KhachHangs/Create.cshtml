@@ -1,0 +1,87 @@
+﻿@model quanlikhachsan_masterdetails.Models.KhachHang
+@inject quanlikhachsan_masterdetailsContext db
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>KhachHang</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TenKhachHang" class="control-label"></label>
+                <input asp-for="TenKhachHang" class="form-control" />
+                <span asp-validation-for="TenKhachHang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiaChi" class="control-label"></label>
+                <input asp-for="DiaChi" class="form-control" />
+                <span asp-validation-for="DiaChi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoDienThoai" class="control-label"></label>
+                <input asp-for="SoDienThoai" class="form-control" />
+                <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+            </div>
+            <table class="table table-responsive table-hover table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        SoPhong
+                    </th>
+                    <th>
+                        Check In
+                    </th>
+                    <th>
+                        Check Out
+                    </th>
+                    <th>
+                        TongTien
+                    </th>
+                    <th>
+                        <input type="submit" value="action_Add" name="action" class="btn btn-success " />
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.khachDatPhongs.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            <select asp-for="khachDatPhongs[i].PhongId" asp-items="db.Phongs.Select(r=> new SelectListItem(){Text = r.SoPhong,Value = r.Id.ToString() })">
+                            </select>
+                        </td>
+                        <td>
+                            <input asp-for="khachDatPhongs[i].Check_In" class="form-control" />
+                        </td>
+                        <td>
+                            <input asp-for="khachDatPhongs[i].Check_Out" class="form-control" />
+                        </td>
+                        <td>
+                            <input asp-for="khachDatPhongs[i].TongTien" class="form-control" readonly />
+                        </td>
+                        <td>
+                                <button value="action_delete-@i" name="action">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            </table>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

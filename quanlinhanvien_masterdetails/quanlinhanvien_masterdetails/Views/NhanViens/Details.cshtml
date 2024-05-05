@@ -1,0 +1,78 @@
+﻿@model quanlinhanvien_masterdetails.Models.NhanVien
+
+@inject quanlinhanvien_masterdetailsContext db
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>NhanVien</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenNhanVien)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenNhanVien)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GioiTinh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GioiTinh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NgaySinh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NgaySinh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Luong)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Luong)
+        </dd>
+        <table class="table table-responsive table-hover table-bordered table-striped">
+
+            <thead>
+                <tr>
+                    <th>
+                        PhongBan
+                    </th>
+                    <th>
+                        MoTaCongViec
+                    </th>
+                    <th>
+                        NgayLamViec
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @for (int i = 0; i < Model.phongBanNhanViens.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            <select asp-for="phongBanNhanViens[i].PhongBanId" asp-items="db.PhongBans.Select(r=> new SelectListItem(){Text = r.TenPhongBan,Value = r.Id.ToString() })" disabled>
+                            </select>
+                        </td>
+                        <td>
+                            <input asp-for="phongBanNhanViens[i].MoTaCongViec" class="form-control" readonly />
+                        </td>
+                        <td>
+                            <input asp-for="phongBanNhanViens[i].NgayLamViec" class="form-control" readonly />
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
